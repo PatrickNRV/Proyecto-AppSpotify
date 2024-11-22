@@ -1,0 +1,27 @@
+{
+        "track_name": "Love Grows (Where My Rosemary Goes)",
+        "artist(s)_name": "Edison Lighthouse",
+        "artist_count": "1",
+        "released_year": "1970",
+        "released_month": "1",
+        "released_day": "1",
+        "in_spotify_playlists": "2877",
+        "in_spotify_charts": "0",
+        "streams": "BPM110KeyAModeMajorDanceability53Valence75Energy69Acousticness7Instrumentalness0Liveness17Speechiness3",
+        "in_apple_playlists": "16",
+        "in_apple_charts": "0",
+        "in_deezer_playlists": "54",
+        "in_deezer_charts": "0",
+        "in_shazam_charts": "0",
+        "bpm": "110",
+        "key": "A",
+        "mode": "Major",
+        "danceability_%": "53",
+        "valence_%": "75",
+        "energy_%": "69",
+        "acousticness_%": "7",
+        "instrumentalness_%": "0",
+        "liveness_%": "17",
+        "speechiness_%": "3"
+        
+    } Tiene un error en streams. Eliminar del csv

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spotify Dashboard</title>
+    <meta name="description" content="Dashboard interactivo para analizar datos de Spotify">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
+    <script src="js/graficos.js" defer></script>
+    <script src="js/botones.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Spotify Dashboard</h1>
+        <p>Explora análisis sobre las canciones más populares, sus streams, y su relación con playlists.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><button type="button" id="grafico1">Las Canciones Más Populares</button></li>
+            <li><button type="button" id="grafico2">Relación Año-Streams</button></li>
+            <li><button type="button" id="grafico3">Relación Artistas-Streams</button></li>
+            <li><button type="button" id="grafico4">Relación Playlists-Streams</button></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Análisis Gráfico</h2>
+            <!-- Contenedor para gráficos -->
+            <div id="grafico" style="width: 80%; margin: auto; height: 500px;"></div>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center; margin-top: 20px;">Dashboard desarrollado para el análisis de datos de Spotify.</p>
+    </footer>
+</body>
+</html>
